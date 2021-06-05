@@ -1,0 +1,12 @@
+$ docker logs e7fe06d92548 >& part-1-logs
+[node2] (local) root@192.168.0.7 ~
+$ cat pa
+part-1-logs    part-1-output  
+[node2] (local) root@192.168.0.7 ~
+$ cat part-1-logs 
+2021/06/05 09:05:46 listening on ****
+2021/06/05 09:06:24 wrote 610 bytes for /
+2021/06/05 09:06:24 wrote 610 bytes for /favicon.ico
+2021/06/05 09:08:30 wrote 127 bytes for /raw
+2021/06/05 09:09:09 wrote 127 bytes for /raw
+[node2] (local) root@192.168.0.7 ~
