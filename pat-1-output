@@ -1,0 +1,14 @@
+$ curl -o ./part-1-output http://localhost:9393/raw
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   127  100   127    0     0  42333      0 --:--:-- --:--:-- --:--:-- 63500
+[node2] (local) root@192.168.0.7 ~
+
+
+
+$ wget -O ./part-1-output http://localhost:9393/raw
+Connecting to localhost:9393 (127.0.0.1:9393)
+saving to './part-1-output'
+part-1-output        100% |****************************************************************|   127  0:00:00 ETA
+'./part-1-output' saved
+[node2] (local) root@192.168.0.7 ~
